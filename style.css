@@ -332,15 +332,29 @@ span {
 /* ===== FOOTER ===== */
 
 .footer {
-    background-color: #1E1B2E;
+    background-color: #1A1325;
     padding: 3rem;
     text-align: center;
+    max-width: none;
+    width: 100%;
+}
+
+.footer h2{
+    font-size: 2rem;
+    color: var(--white);
+    padding: 1rem;
 }
 
 .footer .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
+}
+
+.footer img{
+    width: 40px;
+    filter: invert(1);
+    cursor: pointer;
 }
 
 .footer a {
